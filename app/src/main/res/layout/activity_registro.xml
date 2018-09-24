@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistroActivity">
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre" tools:layout_editor_absoluteY="51dp" tools:layout_editor_absoluteX="36dp"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/txtUsuario" tools:layout_editor_absoluteY="83dp" tools:layout_editor_absoluteX="36dp"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Correo" tools:layout_editor_absoluteY="142dp"
+                tools:layout_editor_absoluteX="36dp"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/txtUsuario3" tools:layout_editor_absoluteY="172dp"
+                tools:layout_editor_absoluteX="36dp"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contraseña" tools:layout_editor_absoluteY="236dp"
+                tools:layout_editor_absoluteX="36dp" android:id="@+id/textView2"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="***************"
+                android:inputType="textPassword"
+                android:id="@+id/txtContrasena3" tools:layout_editor_absoluteY="260dp"
+                tools:layout_editor_absoluteX="36dp"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Edad" tools:layout_editor_absoluteY="236dp"
+                tools:layout_editor_absoluteX="36dp" android:id="@+id/textView3"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/txtUsuario4" tools:layout_editor_absoluteY="172dp"
+                tools:layout_editor_absoluteX="36dp"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sexo" tools:layout_editor_absoluteY="325dp"
+                tools:layout_editor_absoluteX="36dp" android:id="@+id/textView"/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <RadioButton
+                    android:text="Femenino"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" tools:layout_editor_absoluteY="354dp"
+                    tools:layout_editor_absoluteX="208dp" android:id="@+id/radioButton" android:layout_weight="1"/>
+            <RadioButton
+                    android:text="Masculino"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" tools:layout_editor_absoluteY="354dp"
+                    tools:layout_editor_absoluteX="79dp" android:id="@+id/radioButton2" android:layout_weight="1"/>
+        </LinearLayout>
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:text="Registrar"
+                android:onClick="Registrar" android:id="@+id/button2" tools:layout_editor_absoluteY="420dp"
+                tools:layout_editor_absoluteX="0dp" android:layout_weight="1"/>
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:text="Volver"
+                android:onClick="Volver" android:id="@+id/button5" tools:layout_editor_absoluteY="420dp"
+                tools:layout_editor_absoluteX="0dp" android:layout_weight="1"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="26dp" android:layout_weight="1">
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
